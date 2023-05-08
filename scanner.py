@@ -22,7 +22,7 @@ print("Current S Units:",Sunits)
 
 # Set scanning config
 step_size = 500
-sensitivity = 40
+sensitivity = 20
 
 # Band Frequencies for General Class
 bands_80m_start = 3700000
