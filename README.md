@@ -10,6 +10,7 @@ In contrast, scanner.py's command-line interface connects to an FLRig server run
 Overall, both programs provide different interfaces to interact with the same FLRig functionality, with scanner-gui.py offering a more user-friendly GUI interface, while scanner.py provides a lightweight command-line interface.
 
 Wiki: https://github.com/jrobertfisher/flrig-hf-scanner/wiki
+
 Code: https://github.com/jrobertfisher/flrig-hf-scanner
 
 FLRig HF Scanner 1.0 Release Notes
