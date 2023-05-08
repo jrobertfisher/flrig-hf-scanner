@@ -1,6 +1,8 @@
 # flrig-hf-scanner
 An HF scanner that interfaces with FLRig to automate frequency scanning for phone QSOs.
 
+See wiki for config and usage instructions: https://github.com/jrobertfisher/flrig-hf-scanner/wiki
+
 FLRig HF Scanner 1.0 Release Notes
 
 scanner-gui.py – GUI interface that controls radio transceivers via FLRig using XML-RPC. The code implements several functions for setting the transceiver's frequency to different bands, such as 80m, 60m, 40m, etc., within the limits of General Class ham radio operators. Functions connect FLRig HF Scanner to a FLRig server using a configurable hostname and port number and set the transceiver's mode, bandwidth, and initial frequency according to the band. The code uses threading to run functions in the background. If the connection is successful, the program enables new or continued scans and has a function to stop scanning. You can also tune the scan's sensitivity to a specific dB the scan will stop on. You can also control the step size of the scan in 100 Hz increments from 100 to 1000 Hz.
